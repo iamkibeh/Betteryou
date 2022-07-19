@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row h1{
+    text-align: center;
+    padding: 20px;
+}
+
+ .images{
+    display: flex;
+    padding: 20px;
+}
+
+.images .image1{
+    flex: 1;
+    margin: 1em;
+    /* background-color: aqua; */
+    box-shadow: 1px 1px 5px #ebedee;
+}
+
+.images .image1 img{
+    max-width: 100%;
+    padding: 5px;
+}
+
+.images .image1 .specialization{
+/* background-color: rebeccapurple; */
+padding: 8px;
+}
+.images .image1 .specialization h4{
+text-align: center;
+margin-bottom: 5px;
+}
+
+.row .see-more{
+    /* background-color: blue; */
+    padding-right: 20px;
+    text-align: end
+}
+
+.see-more i{
+    font-size: 4em;
+}
+
+.page-break {
+    background-color:black ;
+    height: 5px;
+}
