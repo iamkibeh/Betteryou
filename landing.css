@@ -42,7 +42,7 @@ a {
     color:  #E8BC5A;
     border-bottom:  #E8BC5A solid;
     padding-bottom: 4px;
-    transition: 2s ease;
+    transition: 1.5s ease;
     
 }
 
@@ -79,7 +79,7 @@ a {
 .btn:hover{
     color: #FAFAFA;
     background-color: #f5b835;
-    transition: 2s ease-in;
+    transition: 1.5s ease-in;
 }
 .container >.landing{
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://images.pexels.com/photos/5699451/pexels-photo-5699451.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
@@ -119,4 +119,58 @@ a {
     font-size: 1.8em;
     
 
+}
+.about {
+    display: flex;
+    justify-content: space-between;
+    
+    background-color: rgb(245, 245, 245);
+
+}
+
+.about-text {
+    width: 40%;
+    padding-right: 4em;
+    margin-top: 10vh;
+    align-items: center;
+    margin-bottom: 2em;
+}
+.about-text>.heading{
+    color: #0A306C;
+    font-size: 3em;
+    
+
+}
+
+.about-image {
+    width: 40%;
+    margin-left: 10vh;
+    margin-top: 10vh;
+    
+}
+
+.about-img {
+    width: 100%;
+}
+
+.border {
+    width: 2em;
+    border-bottom: #0A306C 4px solid;
+    margin-top: .1em;
+}
+.btn-about{
+    color: #f5b835;
+    padding: .75em;
+    border-radius: 40px;
+    font-weight: 500;
+    font-size: 1.3em;
+    background-color: #0A306C;
+    margin-top: 300px;
+    
+    letter-spacing: 3px;
+}
+.btn-about:hover{
+    color: #FAFAFA;
+    background-color: #f5b835;
+    transition: 1.5s ease-in;
 }
