@@ -14,3 +14,8 @@ body{
     background-position: top;
     background-repeat: repeat;
 }
+#login1{
+    padding-left: 30%;
+    color: white;
+    font-size: 35px;
+}
