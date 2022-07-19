@@ -1,6 +1,5 @@
 body{
-    background-color: rgb(179, 242, 242);
-   
+background-color: none;
 }
 #create{
     padding-left: 30%;
@@ -10,10 +9,15 @@ body{
 .signup{ 
     border: solid white;
     width: 100%;
-    height: 100%;
-    margin-top: 7%;
+    height: 100vh;
+    margin-top: 0;
     justify-content: center;
-    background-image: url("../loginimages/dylan-gillis-YJdCZba0TYE-unsplash.jpg")
+    display: flex;
+    flex-direction: column;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../loginimages/dylan-gillis-YJdCZba0TYE-unsplash.jpg");
+    background-size: cover;
+    background-position: top;
+    background-repeat: repeat;
 }
 .input{
     /* border: solid red; */
@@ -43,7 +47,7 @@ input[type=text] {
     color: white;
     font-size: 30px;
     margin-left: 50%;
-    background-color: rgb(29, 46, 181);
+    background-color: blue;
     width: 15rem;
     height: 3rem;
     border-radius: 10px;
