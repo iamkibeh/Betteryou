@@ -1,0 +1,75 @@
+body{
+    margin: 0em;
+    padding:0em;
+
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.nav{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #0A306C;
+    font-weight: 400;
+    text-align: center;
+}
+.nav-ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.links li,
+.nav-ul li {
+    display: inline-block;
+    align-items: center;
+    
+}
+.nav-ul li {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.nav-hover:hover {
+    color:  #E8BC5A;
+    border-bottom:  #E8BC5A solid;
+    padding-bottom: 5px;
+}
+
+.links,
+.nav-ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    
+    
+
+}
+.logo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    color: #FAFAFA;
+
+}
+.login li{
+    color: #FAFAFA;
+
+}
+.Dar{
+    color: #E8BC5A;
+}
+.btn{
+    color: #f5b835;
+    padding: 1em;
+    border-radius: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.btn:hover{
+    color: #FAFAFA;
+    background-color: #f5b835;
+    transition: 1.5s ease;
+}
