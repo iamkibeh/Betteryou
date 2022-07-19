@@ -1,1 +1,16 @@
-
+body{
+    background-color: none;
+}
+.login{
+    border: solid white;
+    width: 100%;
+    height: 100vh;
+    margin-top: 0;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../loginimages/kike-vega-F2qh3yjz6Jk-unsplash.jpg");
+    background-size: cover;
+    background-position: top;
+    background-repeat: repeat;
+}
