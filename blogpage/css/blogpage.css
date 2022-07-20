@@ -46,3 +46,114 @@ box-shadow: 1px 1px 8px
 text-align: center;
 padding: 10px;
 }
+
+.mental-pics{
+    display: flex;
+    width: 80%;
+    margin: auto;
+
+}
+
+.mental-pics img{
+    flex: 1;
+    max-width: 40%;
+    /* max-height: 80%; */
+    margin: 2rem;
+}
+
+.depression {
+    font-style: italic;
+    font-weight: bold;
+}
+.depression h3{
+color: black;
+margin-bottom: 1em;
+}
+.depression ol li:nth-child(even) {
+    color: black;
+}
+
+.red-line{
+    background-color: white;
+    width:2px;
+    height: 5%;
+   margin: auto;
+}
+
+.more {
+    background-color: white;
+    /* height: 4em; */
+    text-align: center;
+    padding: 20px;
+}
+
+.more button {
+    padding: 8px;
+    border-radius: 50px;
+    border: 1px solid grey;
+    color: black;
+    font-weight: bold;
+}
+
+.more button:hover {
+    opacity: 0.8;
+    border: 1px solid red;
+    transition: 2s ease;
+    padding: 12px;
+}
+
+.main-footer {
+display: flex;
+background-color: black;
+padding: 20px;
+justify-content: space-between;
+font-size: 14px;
+}
+
+
+
+.footer-tags {
+    width: 30%;
+display: flex;
+/* background-color: #2575fc; */
+justify-content: space-between;
+}
+
+.footer-tags ul {
+    list-style-type: none;
+    /* background-color: red; */
+    padding: 10px;
+}
+
+.first {
+    margin-right: 10%;
+}
+
+.footer-tags ul li {
+    padding: 5px;
+}
+
+.footer-tags ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+.footer-quote {
+color: white;
+padding: 12px;
+text-align: end;
+}
+
+.icons {
+   background-color: white;
+   padding: 10px;
+   text-align: center;
+}
+
+.icons i {
+    padding: 3px;
+}
+.icons p {
+    padding: 5px;
+    margin-top: 5px;
+}
