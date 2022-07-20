@@ -427,9 +427,8 @@ h4{
     display: flex;
     flex-direction: row;
     min-height: 30vh;
-    background-color: #0A306C;
-    margin-top: 10vh;
-    padding-bottom: 20vh;
+    
+
 }
 
 ul {
@@ -441,18 +440,28 @@ ul {
     width: 50%;
     padding-left: 10vh;
 }
+.summary>p {
+   color: #FAFAFA;
+}
 
-.Company, .Products, .Others {
+.Company, .Our-focus, .Others {
     width: 16%;
 }
 
-.Company ul li, .Products ul li, .Others ul li {
+.Company ul li, .Our-focus ul li, .Others ul li {
     margin-bottom: 1.5em;
+    color: #FAFAFA;
+}
+.Company, .Others>h2{
+    color: #FAFAFA;
 }
 
 .footer-center {
     text-align: center;
-    margin-bottom: 2em 0;
+    margin-bottom: 1em;
+    color: #E8BC5A;
+    font-size: 1.2em;
+    
 }
 
 .icons {
@@ -463,17 +472,18 @@ ul {
     justify-content: space-between;
 }
 
-.stars {
-    color: #ED661F;
-}
-
-.gray-star {
-    color: #999;
-}
-
 .mobile {
     display: flex;
+    flex-direction: row;
     margin-top: 3em;
     width: 40%;
     justify-content: space-between;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #0A306C;
+    margin-top: 5vh;
+    padding-bottom: 5vh;
+    padding-top: 10vh;
 }
