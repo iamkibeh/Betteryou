@@ -70,7 +70,7 @@ a {
     color: #E8BC5A;
 }
 .btn{
-    color: #f5b835;
+    color: #E8BC5A;
     padding: .75em;
     border-radius: 40px;
     font-weight: 500;
@@ -80,7 +80,7 @@ a {
 }
 .btn:hover{
     color: #FAFAFA;
-    background-color: #f5b835;
+    background-color: #E8BC5A;
     transition: 1.5s ease-in;
 }
 .container >.landing{
@@ -149,8 +149,10 @@ a {
 
 .about-image {
     width: 40%;
+    height: 55.3vh;
     margin-left: 0;
     margin-top: 10vh;
+    border: #E8BC5A solid 2px;
     
 }
 
@@ -160,14 +162,14 @@ a {
 
 .border {
     width: 2em;
-    border-bottom: #0A306C 4px solid;
+    border-bottom: #E8BC5A 4px solid;
     margin-top: .1em;
 }
 .parabout{
     margin-bottom: 5em;
 }
 .bottom{
-    color: #f5b835;
+    color: #E8BC5A;
     padding: .75em;
     border-radius: 40px;
     font-weight: 500;
@@ -188,7 +190,7 @@ a {
     height: 100vh;
     margin-left:0;
     margin-right: 0;
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://images.pexels.com/photos/8430295/pexels-photo-8430295.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://images.pexels.com/photos/921294/pexels-photo-921294.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -240,7 +242,7 @@ a {
 }
 .counsellor-head>.counsel{ 
     
-    border-bottom: #fff 4px solid;
+    border-bottom: #E8BC5A 4px solid;
     width: 6%;
     
     padding-top: 0px;
