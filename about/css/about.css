@@ -39,6 +39,10 @@ body{
     font-size: 120%;
    
 }
+.cont-how{
+    width: 100%;
+    height: 100vh;
+}
 .how{
     justify-content: center;
     align-items: center;
