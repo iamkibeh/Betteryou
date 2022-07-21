@@ -67,21 +67,35 @@ body{
 }
 
 .inputBox button{
-    width: 100%;    
-    padding: 10px 20px;
+    width: 10%;    
+    padding: 20px;
     border: none;
     outline: none;
-    background: rgb(0, 119, 255);
+    background:#0A306C ;
     color: #FFF;
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    margin-left: 43%;
+    border-radius: 40px;
+    
+    
 
+}
+.bton-txt{
+    color: #E8BC5A;
+    text-decoration: none;
 }
 
 .inputBox button:hover{
-    background: rgb(0, 17, 255);
+    background:#E8BC5A;
     transition: all 0.3s ease;
+    color: #FFF;
+}
+.bton-txt:hover{
+    color: #FFF;
 }
 
 ::placeholder{
@@ -98,3 +112,24 @@ body{
     font-weight: 900;
     display: none;
 } 
+.conthead{
+    
+        text-align: center;
+        margin-top: 0em;
+        color: #0A306C;
+        font-size: 3em;
+        padding-top: 0em;
+        
+        
+    
+    
+}
+.conthead >.contbod{
+    border-bottom: #E8BC5A 4px solid;
+    width: 30%;
+    
+    padding-top: 5px;
+    margin: 0% auto;
+    margin-bottom: .75em;
+
+}
