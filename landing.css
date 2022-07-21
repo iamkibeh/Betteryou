@@ -101,7 +101,7 @@ a {
 }
 .landing-txt{
     width: 70vh;
-    height:30vh;
+    height:40vh;
     padding-left: 40px;
     margin-top: 25vh;
        
@@ -280,7 +280,7 @@ h4{
     
     background-color: rgb(245, 245, 245);
     padding-bottom: 5em;
-
+    width: 100%;
 
 }
 
@@ -426,11 +426,13 @@ h4{
     
 }
 
+footer {
+    width: 100%;
+}
 .footer {
     display: flex;
     flex-direction: row;
     min-height: 30vh;
-    
 
 }
 
@@ -485,6 +487,10 @@ ul {
     margin-top: 3em;
     width: 40%;
     justify-content: space-between;
+}
+
+.mobile .apple {
+    margin-right: 1em;
 }
 footer{
     display: flex;

@@ -16,7 +16,7 @@ body{
     color: white;
     
 }
-.about{
+.aboutBetter{
     font-weight: 900;
     justify-content: center;
     padding-top: 3%;
@@ -43,19 +43,18 @@ body{
 }
 .cont-how{
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 .how{
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 3%;
-    padding-left: 40%;
-    padding-top: 3%;
+    /* justify-content: center; */
+    /* align-items: center; */
     color: white;
 }
-.how, h2{
+.how h2{
     padding-bottom: 2%;
     font-size: 150%;
-    justify-content: center;
+    text-align: center;
     align-items: center;
 }
 
@@ -63,20 +62,12 @@ body{
     color: black;
 }
 .one{
-    width: 30%;
+    margin:10px;
     background-color: blue;
-    border: 2px solid white;
     border-radius: 25px;
-    padding-bottom: 2%;
-    padding-top: 2%;
-    padding-left: 10%;
-    font-size: 100%;
-    justify-content: space-between;
+    padding: 8px;
 }
-.one , h4{
-    margin-bottom: 2%;
-    margin-right: 20%;
-}
+
 .servicesection{
     margin: auto;
     width: 100%;
@@ -103,19 +94,26 @@ body{
     width: 100%;
 }
 
-.what{
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 3%;
-    padding-left: 40%;
-    padding-right: 0%;
+
+.whatcontent {
+    text-align: center;
+display: flex;
+justify-content: center;
+
 }
-.what, h2{
-    padding-bottom: 2%;
+.what{
+    align-items: center;
+    /* padding-bottom: 3%;
+    padding-left: 40%;
+    padding-right: 0%; */
+}
+.what h2{
+    color: black;
+    margin-bottom: 2%;
     font-size: 150%;
 }
 .two{
-    width: 30%;
+    /* width: 30%; */
     background-color: blue;
     border: 2px solid white;
     border-radius: 25px;
