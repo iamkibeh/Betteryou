@@ -4,29 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>signup</title>
-    <link rel="stylesheet" type="text/css" href="../login/css/login.css">
+    <title>Contact Messages | Firebase</title>
+    <link rel="stylesheet" href="../login/css/login.css">
 </head>
 <body>
-
-    <div class="signup">
-        
-        <h2 id="create">Create a New Account</h2>
-        <form class="input">
-              <label for="name">Email:</label>
-              <input type="text" id="nm" name="nm" width="100" height="50">
-              <br>
-              <label for="pwd">Password:</label>
-             <input type="text" id="pwd" name="pwd" width="48" height="48">
-             <br>
-               
-             <a href="" target="_blank">Already Registered? Login</a>
+    <div class="container">
+        <form action="" id="contactForm">
+            <h1 class="conthead" >Create Account
+                <div class="contbod"></div>
+            </h1>
+            <div class="alert">Your message sent</div>
+            <div class="inputBox">
+                <input type="email" id="emailid" placeholder="Your email...." />
+            </div>
+            <div class="inputBox">
+                <input type="text" id="name" placeholder="Your password....." />
+            </div>
+            <a href="./signup.html" target="_blank">Have an account? Login continue</a>
+            <div class="inputBox">
+                <button  type="submit"> <a class="bton-txt" href="../login/signup.html" target="_blank" >Submit</a> </button>
+            </div>
         </form>
-      
-           <button class="signupbtn">Sign Up</button> 
-    
-
-
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="./js/login.js"></script>
 </body>
 </html>

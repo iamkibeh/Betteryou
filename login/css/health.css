@@ -1,21 +1,70 @@
 .mainborder{
-    background-color: aqua;
-
+   background-color: white;
+   width: 100%;
+   margin-top: 3%;
+}
+.mainborder h2 {
+  font-size: xx-large;
+  padding-left: 20%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  color: white;
+  background-color: blue;
 }
 .individual-contents{
 display: flex;
-
+justify-content: space-evenly;
+align-items: center;
+flex-wrap:wrap ;
 width: 100%;
+margin-top: 2%;
 }
 .item-1{
-    height: 230px;
-    max-width: 25%;
- }
- .item-1 img{
-    height: 100%;
-    width: 100%;
+   padding: 1%;
+   width: 40%;
+   height: 830px;
+   margin: 3%;
+   box-shadow: 0px 8px 15px rgba(8, 8, 8, 0.1);
+}
+.item-1 img{
+  /* padding-top: 3%; */
+   height: 60%;
+   width: 60%;
+   padding-left: 20%;
+}
+.item-1 h4{
+  font-size: xx-large;
+  padding-left: 40%;
+  color: white;
+  background-color: blue;
+}
+.item-1 h6{
+  font-size: larger;
+  color: black;
+  padding-left: 10%;
+  font-style: italic;
+}
+.view-btn{
+  margin-top: 1rem;
+  margin-right: 2rem;
+}
+.view-btn button{
+  background-color: blue;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 3% 2%;
+  border-radius: 5%;
+  border-width: 0px;
+  margin-left: 40%;
+}
+.view-btn button a{
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+}
 
- }
- .mainborder2{
-    background-color: blueviolet;
- }
+
+
+
+
+
