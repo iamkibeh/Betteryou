@@ -95,7 +95,7 @@ width: 100%;
 }
 
 .image-mental-health{
-    background-image: url("/blogpage/images/mental-health-gff8f8289c_1920.jpg");
+    background-image: url("../images/mental-health-gff8f8289c_1920.jpg");
     width: 100%;
     height: 85vh;
     background-repeat: no-repeat;
