@@ -1,15 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* navigation bar from landing page */
+
+a {
+  text-decoration: none;
+  color: #FAFAFA;
+  font-size: 1.1em;
+}
+
+
+.nav{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: #0A306C;
+  font-weight: 400;
+  text-align: center;
+}
+.nav-ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.links li,
+.nav-ul li {
+  display: inline-block;
+  align-items: center;
+  
+}
+.nav-ul li {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.nav-hover:hover {
+  color:  #E8BC5A;
+  border-bottom:  #E8BC5A solid;
+  padding-bottom: 4px;
+  transition: 1.5s ease;
+  
+}
+
+.links,
+.nav-ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  
+  
+
+}
+.logo {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2em;
+  font-weight: 500;
+  color: #FAFAFA;
+  letter-spacing: 2px;
+
+}
+
+.you{
+  color: #E8BC5A;
+}
+.btn{
+  color: #E8BC5A;
+  padding: .75em;
+  border-radius: 40px;
+  font-weight: 500;
+  font-size: 1.3em;
+  
+  letter-spacing: 3px;
+}
+.btn:hover{
+  color: #FAFAFA;
+  background-color: #E8BC5A;
+  transition: 1.5s ease-in;
+}
+
+
+
+
+/* end of navigation bar from landing page */
+
+
+
 .mainborder{
-   background-color: white;
+   background-color: rgb(245,245,245);
    width: 100%;
-   margin-top: 3%;
+   margin-top: -1.4%;
 }
 .mainborder h2 {
   font-size: xx-large;
-  padding-left: 20%;
-  padding-top: 2%;
-  padding-bottom: 2%;
+  text-align: center;
+ padding: 1em ;
   color: white;
-  background-color: blue;
+  background-color: #0A306C;
 }
 .individual-contents{
 display: flex;
@@ -36,7 +120,7 @@ margin-top: 2%;
   font-size: xx-large;
   padding-left: 40%;
   color: white;
-  background-color: blue;
+  background-color: #0A306C;
 }
 .item-1 h6{
   font-size: larger;
@@ -49,7 +133,7 @@ margin-top: 2%;
   margin-right: 2rem;
 }
 .view-btn button{
-  background-color: blue;
+  background-color: #0A306C;
   font-size: 30px;
   font-weight: bold;
   padding: 3% 2%;
@@ -64,7 +148,11 @@ margin-top: 2%;
 }
 
 
-
-
+.view-btn button:hover {
+  background-color: #e8bc5a;
+  color: #0A306C;
+  transition: ease 2s;
+  border: 1px solid #0A306C;
+}
 
 

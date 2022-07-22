@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -187,21 +190,25 @@ border-radius: 5px;
     padding: 2em;
 }
 .storyimage{
-    width: 60%;
+    width: 40%;
+    display: flex;
+    align-items: center;
 }
 .storyimage >img{
     width: 100%;
 }
 
 .storysection {
-    width: 40%;
+    width: 60%;
 }
 .storysection,p{
     padding-left:3%;
     padding-right: 3%;
     padding-top: 2%;
     padding-bottom: 3%;
-    font-size: 120%;
+    font-size: 12;
+    line-height: 2.0em;
+
 }
 @media only screen and (max-width: 768px) {
    .storyimage{
